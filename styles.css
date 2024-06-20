@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.game-area {
+    margin-bottom: 20px;
+}
+
+#muscleImage {
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+}
+
+.stats {
+    font-size: 1.2em;
+}
+
+p {
+    margin: 5px 0;
+}

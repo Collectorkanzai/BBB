@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tap Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tap Game</h1>
+        <div class="game-area">
+            <img id="muscleImage" src="muscle.jpg" alt="Muscle" onclick="incrementCounter()">
+        </div>
+        <div class="stats">
+            <p>Taps: <span id="counter">0</span></p>
+            <p>Time: <span id="time">00:00:00</span></p>
+            <p>1-min Average: <span id="oneMinAvg">0</span> taps/min</p>
+            <p>5-min Average: <span id="fiveMinAvg">0</span> taps/min</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
